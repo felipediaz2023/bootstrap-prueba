@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema Web de Inventarios</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+  body {
+    background-color: #f4f4f4;
+  }
+  .header, .footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .btn-inventario {
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.5em;
+  }
+  .btn-ordenes { background-color: #007bff; }
+  .btn-compras { background-color: #28a745; }
+  .btn-devoluciones { background-color: #ffc107; }
+  .btn-proveedores { background-color: #fd7e14; }
+  .btn-productos { background-color: #6f42c1; }
+  .btn-usuarios { background-color: #dc3545; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Sistema Web de Inventarios</h1>
+</div>
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-inventario btn-ordenes">Órdenes de Compra</button>
+    </div>
+    <div class="col">
+      <button class="btn btn-inventario btn-compras">Compras Recibidas</button>
+    </div>
+    <div class="col">
+      <button class="btn btn-inventario btn-devoluciones">Devoluciones</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-inventario btn-proveedores">Proveedores</button>
+    </div>
+    <div class="col">
+      <button class="btn btn-inventario btn-productos">Productos</button>
+    </div>
+    <div class="col">
+      <button class="btn btn-inventario btn-usuarios">Usuarios</button>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>INVENTARIOS FELIPE DIAZ S.A.S | Versión 1.0</p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> <!-- Diseños de version bootstrap 4.3 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
